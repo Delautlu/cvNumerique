@@ -12,13 +12,13 @@ body{
     display: grid;
     width: 65%;
     height: 120vh;
-    grid-template-columns: 20% 20% 20% 20% 20% ;
-    grid-template-rows: 50% 30%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 3fr 2fr;
     gap: 20px;
 }
 #fleurs{
-    width: 350px;
-    height: 450px;
+    max-width: 70vw;
+    max-height: 70vh;
     grid-column: 1 /span 2;
 }
 #home{
@@ -32,7 +32,7 @@ a{
 }
 .titre2{
     background-color:white;
-    grid-column: 3 /span 5;
+    grid-column: 2 /span 4;
 }
 
 .forma{

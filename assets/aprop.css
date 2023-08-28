@@ -12,13 +12,13 @@ body{
     display: grid;
     width: 65%;
     height: 120vh;
-    grid-template-columns: 34% 34% 32%;
-    grid-template-rows: 60% 40%;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 3fr 2fr;
     gap: 20px;
 }
 #fleurs{
-    width: 350px;
-    height:550px;
+    max-width: 70vw;
+    max-height: 70vh;
     grid-column: 1 /span 2;
 }
 #home{
@@ -32,21 +32,21 @@ a{
 }
 .titre{
     background-color:white;
-    grid-column: 2 /span 2;
+    grid-column: 2 /span 3;
     }
     
 .prop{
     display: flex;
     justify-content: center;
     font-weight: bolder;
-    font-size: 90px;
+    font-size:  6rem;
     margin-top: 90px;
  }
 .luc{
     display: flex;
     justify-content: center;
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 4rem;
     color: darkseagreen;
  }
 
@@ -86,7 +86,6 @@ a{
 .res1:hover{
     transform: skew(-30deg, 20deg);
     transition: all 200ms ease-in-out;
-    color: #0c930c6c; 
 }
 .res2{
     display: flex;
@@ -96,7 +95,6 @@ a{
 .res2:hover{
     transform: skew(30deg, 20deg);
     transition: all 200ms ease-in-out;
-    color: #0c930c6c; 
 }
 .res3{
     display: flex;
@@ -106,7 +104,6 @@ a{
 .res3:hover{
     transform: skew(-30deg, 20deg);
     transition: all 200ms ease-in-out;
-    color: #0c930c6c; 
 }
 .res4{
     display: flex;
