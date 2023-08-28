@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300;400;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    grid: 40px;
+    border-color: black;
+}
+
+.container{
+    display: grid;
+    width: 65%;
+    height: 120vh;
+    grid-template-columns: 34% 34% 32%;
+    grid-template-rows: 60% 40%;
+    gap: 20px;
+}
+#fleurs{
+    width: 100%;
+    height: 600px;
+}
+
+.titre{
+background-color:white;
+grid-column: 2 /span 2;
+}
+
+.curr{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 90px;
+}
+.conc{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 50px;
+    color: darkseagreen;
+} 
+.curr, .conc{
+    margin-top: 120px;
+}
+.rond:hover{
+    transform: scale(1.2) rotate(-30deg);
+    transition: all 150ms ease-in-out;
+    font-size: 300px;
+    color:darkseagreen;
+}
+.pres{
+    background-color: darkseagreen;
+}
+#me{
+    width: 610px;
+    margin-top: -220px;
+    margin-left: -100px;
+}
+.vous{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+.maya{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 110px;
+    margin-top: 20px;
+    
+}
+.forma{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+#book{
+    margin-top: 210px;
+    font-size: 100px;
+    color: white;
+}
+#book:hover{
+    transform: scale(1.2) rotate(-20deg);
+    transition: all 125ms ease-in-out;
+    font-size: 160px;
+    color:darkseagreen;
+}
+
+.exp{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.expe{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+#bag{
+    margin-top: 210px;
+    font-size: 100px;
+    color: white;
+}
+#bag:hover{
+    transform: scale(1.2) rotate(-20deg);
+    transition: all 125ms ease-in-out;
+    font-size: 160px;
+    color:darkseagreen;
+}
+
+@media screen and (max-width: 768px){}

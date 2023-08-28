@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300;400;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    grid: 40px;
+    border-color: black;
+}
+
+.container{
+    display: grid;
+    width: 65%;
+    height: 120vh;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows: 50% 30%;
+    gap: 20px;
+}
+#fleurs{
+    width: 350px;
+    height: 450px;
+    grid-column: 1 /span 2;
+}
+#home{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.titre2{
+    background-color:white;
+    grid-column: 3 /span 5;
+}
+
+.forma{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-weight: bolder;
+    font-size: 90px;
+}
+.diplo{
+    display: flex;
+    flex-direction: row;
+    background-color: darkseagreen;
+    grid-column: 1 /span 5;
+}
+.cdui{
+   width: 20%;
+   height: 100%;
+   background-color: rgb(80, 115, 80);
+}
+.dev{
+    width: 20%;
+}
+.bts{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(80, 115, 80);
+}
+.bac{
+    width: 20%;
+}
+.sauv{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(80, 115, 80);
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+h5{
+    font-weight: normal;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#bacc{
+    margin-top: 55px;
+}
+
+.gre{
+    margin-top: 50px;
+}
+
+#diplom{
+    margin-left: 80px;
+}
