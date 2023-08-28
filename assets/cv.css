@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans&family=Oxygen:wght@300;400;700&display=swap');
+html{
+    font-size: 100%;
+}
 body{
     display: flex;
     justify-content: center;
@@ -12,8 +15,8 @@ body{
     display: grid;
     width: 65vw;
     height: 120vh;
-    grid-template-columns: 34% 34% 32%;
-    grid-template-rows: 60% 40%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
 }
 #fleurs{
@@ -46,14 +49,14 @@ grid-column: 2 /span 2;
     color: darkseagreen;
 } 
 #me{
-    max-width: 35vw;
-    margin-top: -220px;
-    margin-left: -100px;
+    max-width: 100%;
+    height: auto;
+    margin-top: -180px;
+   
 }
 #me:hover{
-    transform: scale(1.2) rotate(-30deg);
+    transform: scale(1.5) rotate(-30deg);
     transition: all 150ms ease-in-out;
-    font-size: 300px;
     color:darkseagreen;
 }
 .pres{
@@ -122,5 +125,13 @@ grid-column: 2 /span 2;
 }
 
 @media screen and (max-width: 768px){
-
+.curr{
+    font-size: 3rem;
+}
+.conc{
+    font-size: 2rem;
+}
+.name{
+    font-size: 2rem;
+}
 }
