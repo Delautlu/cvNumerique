@@ -27,7 +27,7 @@ body{
 #home{
     display: flex;
     justify-content: end;
-    font-size: 20px;
+    font-size:  2rem;
     color: black;
 }
 a{
@@ -144,3 +144,13 @@ h5{
     color: white;
     font-size: 40px;
 }
+
+@media screen and (max-width: 768px){
+   h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    
+    }

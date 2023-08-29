@@ -22,12 +22,12 @@ body{
 }
 #fleurs{
     max-width: 70vw;
-    max-height: 60vh;
+    max-height: 70vh;
 }
 #home{
     display: flex;
     justify-content: end;
-    font-size: 20px;
+    font-size: 2rem;
     color: black;
 }
 a{
